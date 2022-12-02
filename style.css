@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial, sans-serif;
+  background-image: url("./witp-bg.webp");
+  background-repeat: no-repeat;
+}
+
+.card-body {
+  justify-content: center;
+  background-color: #899095;
+  margin: 5px;
+  border: none;
+  border-radius: 15px;
+}
+
+#pokemon-image {
+  -webkit-filter: brightness(0);
+}
+
+#pokemon-name {
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffcb05;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: #2a75bb;
+}
